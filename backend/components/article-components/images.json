@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_image_block_images",
+  "info": {
+    "name": "row_images",
+    "icon": "images"
+  },
+  "options": {},
+  "attributes": {
+    "pictures": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}
